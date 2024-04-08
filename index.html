@@ -4,51 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Alivio</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="header__nav">
-          <a href="#" class="logo__link"
-            ><img src="image/Logo.svg" alt="" class="logo__img"
-          /></a>
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="#" class="header__link">Why Alivio</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Solutions</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Community</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Pricing</a>
-            </li>
-          </ul>
-          <div class="header__login">
-            <a href="#" class="header__sign">Sign in</a>
-            <a href="#" class="header__start">Start Trial</a>
-          </div>
-        </nav>
+      <div class="header__container">
+      <a href="#" class="header__logo"><img src="image/Logo.svg" alt="logo Alivio" class="logo__img" width="79.57" height="23.04"></a>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__list"><a href="#" class="nav__link">Why Alivio</a></li>
+          <li class="nav__list"><a href="#" class="nav__link">Solutions</a></li>
+          <li class="nav__list"><a href="#" class="nav__link">Community</a></li>
+          <li class="nav__list"><a href="#" class="nav__link">Pricing</a></li>
+        </ul>
+      </nav>
+      <div class="header__sign">
+        <a href="#" id="sign">Sign in</a>
+        <a href="#" id="start">Start Trial</a>
       </div>
-      <section class="header__bottom">
-        <div class="container">
-          <div class="title__block">
-            <h1 class="bottom__title">Be aware, Manage well.</h1>
-            <p class="bottom__text">
-              Everyone experiences stress in different ways. Let Alivio guide
-              you, in a personalized journal experience, to overcome your
-              stress.
-            </p>
-            <a href="#" class="bottom__link">Find Your Way</a>
-          </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+        <h1>Be aware, Manage well.</h1>
+        <p>Everyone experiences stress in different ways.
+          Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+          <a href="#">Find Your Way</a>
         </div>
       </section>
-    </header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+      <section class="blog__top">
+        <p class="header__blog">How it works</p>
+        <div class="blog__text">
+          <h2>Understand & Release 
+            the stress in 3 steps</h2>
+          <p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+        </div>
+        <div class="blog__card">
+          <ul class="card__list">
+            <li class="card__item card-1">
+              <h3><span>01</span>Personalize</h3>
+              <p>Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+   
+              <img src="image/personalize.png" alt="ноутбук на столе" width="390" height="492">
+
+            </li>
+            <li class="card__item card-2">
+              <h3><span>02</span>Write & Understand</h3>
+              <p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+              <img src="image/book.png" alt="Книга в развернутом виде" width="390" height="492">
+            </li>
+            <li class="card__item card-3">
+              <h3><span>03</span>Alivio!</h3>
+              <p>Now you are aware, and have a way to manage and overcome your own stress.
+                <br>What are you waiting for? Alivio today!</p>
+              <img src="image/happy woman.png" alt="Счастливая женщина" width="390" height="492">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <setion class="story">
+        <div class="story__container">
+        <div class="story__text">
+        <h2>Let's hear about Kayla's success story</h2>
+        <p>See how well Alivio works in a real customer’s life. </p>
+        <a href="#">Let’s get started</a>
+        </div>
+        <img src="image/video.png" alt="Видео успеха" width="895.84" height="516.11">
+      </div>
+      </setion>
+      <article class="product">
+        <section class="client">
+          <img src="image/court-cook-TSZo17r3m0s-unsplash-removebg 1.svg" alt="Клиент на заднем фоне" class="big__woman">
+          <div class="client__container">
+          <p>Customized For</p>
+          <img src="image/court-cook-TSZo17r3m0s-unsplash-removebg 2.svg" alt="Аватарка клиента" width="57.44" height="57.44">
+          <p class="client__name">Mikayla</p>
+          <h3>Your custom contents</h3>
+          <ul>
+            <li>• Understand Your Stress</li>
+            <li>• Anger Management</li>
+          </ul>
+        </div>
+        </section>
+        <section class="product__text">
+          <p class="product__text__top">Our product</p>
+          <h2>You tell us your stress,
+            We make your diary</h2>
+          <p>Everyone experiences it, and in different ways.
+            <br>Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+            <a href="#">Find Your Way</a>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+      <a href="#" class="footer__logo"><img src="image/Alivio.svg" alt="logo Alivio" class="logo__img" width="108" height="55"></a>
+      <ul class="footer__list">
+          <li class="footer__list"><a href="#" class="footer__link">Why Alivio</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Solutions</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Community</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Pricing</a></li>
+      </ul>
+    </div>
+    </footer>
   </body>
 </html>
